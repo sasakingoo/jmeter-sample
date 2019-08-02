@@ -1,0 +1,6 @@
+- name: setup jmeter
+  hosts: 192.168.33.100
+  connection: local
+  roles:
+    - role: jmeter
+      tags: jmeter
